@@ -25,7 +25,7 @@ const AlbumDetail = ({ album }) => (
       />
     </CardSection>
     <CardSection>
-      <Button text="Button 1" />
+      <Button text="Button 1" pressHandler={() => console.log(album.title)} />
     </CardSection>
   </Card>
 );
